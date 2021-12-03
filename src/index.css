@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 500px;
+  min-height: 500px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.weather-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slider {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -90%);
+}
+.slider input {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.slider h4 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.App {
+  margin-left: 20px;
+}
+.App input {
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  font-size: 20px;
 }
