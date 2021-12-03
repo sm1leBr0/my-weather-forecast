@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import Weather from './Weather'
 
-const url = 'https://www.metaweather.com/api/location/search/?query='
-const locationUrl = 'https://www.metaweather.com/api/location/search/?lattlong='
+const url =
+  'https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/search/?query='
+const locationUrl =
+  'https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/search/?lattlong='
 
 function App() {
   const [cityName, setCityName] = useState('')

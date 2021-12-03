@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
-const url = 'https://www.metaweather.com/api/location/'
+const url =
+  'https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/'
 
 const Weather = ({ id }) => {
   const [infoAboutWeather, setInfoAboutWeather] = useState({})
