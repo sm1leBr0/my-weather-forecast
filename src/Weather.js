@@ -66,7 +66,6 @@ const Weather = ({ id }) => {
     }
     if (temp > -10 && temp <= 10) {
       percent = (temp + 10) * 5
-      console.log(percent)
       mixColors('00ffff', 'fff700', percent)
     }
   }
